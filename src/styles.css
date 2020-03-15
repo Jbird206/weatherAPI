@@ -1,0 +1,93 @@
+p {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #3be5eb;
+    color: #3429c7;
+    margin: auto;
+    width: 750px;
+}
+
+.jumbotron {
+    background-color: #f11df8;
+    text-align: center;
+}
+
+#happy{
+    background-image: url(https://vignette.wikia.nocookie.net/tamagotchi/images/8/8d/Tamagotchi_blue.png/revision/latest?cb=20110906021758);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+}
+
+#game{
+    display:none;
+    background-color: #ec8af0;
+}
+
+#goodfinal, #badfinal, #textfood, #textsleep, #textplay{
+    display: none;
+    margin: 5%;
+}
+
+#unhappy{
+    background-image: url(https://vignette.wikia.nocookie.net/tamagotchi/images/b/b9/Mametchi_sad.png/revision/latest/top-crop/width/300/height/300?cb=20170726030108);
+    display: none;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+}
+
+#dead{
+    background-image: url(https://art.ngfiles.com/images/999000/999139_pinkmoth_evil-tamagotchi-babby.png?f1566397236);
+    display: none;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+}
+
+#picture{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#screens{
+    height: 60px;
+    width: 400x;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+.screen{
+
+    width: 120px;
+    height: 50px;
+    margin: 20px;
+    font-size: 30px;
+
+}
+
+#buttons{
+    margin-left: 25%;
+    color: red;
+}
+
+button {
+    background-color: #eee6ec;
+    border: 5px;
+    border-color: #3429c7;
+    border-radius: 50%;
+    box-shadow: 2px 3px black;
+}
+
+
+button:active {
+    background-color: green;
+}
